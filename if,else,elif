@@ -1,0 +1,9 @@
+a,b,h=int(input()),int(input()),int(input())
+if a<=h<=b:
+   print('Это нормально')
+else:
+   if h>b:
+      print('Пересып')
+   else:
+     if h<a:
+        print('Недосып')
